@@ -1,0 +1,197 @@
+.hero{
+    width: 100%;
+    display: flex;
+    padding: 50px 200px;
+    gap: 50px;
+    background-color: #2B2B2B;
+    .hero-info{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        h1{
+            font-size: 90px;
+            color: white;
+        }
+        p{
+            font-size: 26px;
+            color: white;
+        }
+        .hero-info__st{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            span{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                h2{
+                    color: white;
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 24px;
+                    color: white;
+                }
+            }
+        }
+    }
+    .hero-img{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        .hero-img__text{
+            background-color: #3B3B3B;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            border-radius: 0 0 15px 15px;
+            h2{
+                font-size: 26px;
+                color: white;
+            }
+            .hero-img__text__icon{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                p{
+                    color: white;
+                }
+            }
+        }
+        img{
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+        }
+    }
+}
+
+@media (max-width:1700px){
+    .hero{
+        padding: 50px 150px;
+        gap: 30px;
+        .hero-info{
+            gap: 30px;
+            h1{
+                font-size: 66px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+    }
+}
+@media (max-width:1400px){
+    .hero{
+        padding: 50px 100px;
+        gap: 30px;
+        .hero-info{
+            gap: 30px;
+            h1{
+                font-size: 56px;
+            }
+            p{
+
+                font-size: 22px;
+            }
+        }
+    }
+}
+@media (max-width:1200px){
+    .hero{
+        padding: 50px 100px;
+        gap: 30px;
+        .hero-info{
+            gap: 25px;
+            h1{
+                font-size: 44px;
+            }
+            p{
+
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .hero{
+        padding: 50px 70px;
+        gap: 30px;
+        .hero-info{
+            gap: 15px;
+            h1{
+                font-size: 34px;
+            }
+            p{
+
+                font-size: 18px;
+            }
+            .btn-universal{
+                padding: 10px 25px;
+                font-size: 18px;
+                i{
+                    font-size: 18px;
+                }
+            }
+            .hero-info__st{
+                gap: 20px;
+                span{
+                    gap: 10px;
+                    h2{
+                        font-size: 22px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .hero{
+        padding: 30px;
+        gap: 20px;
+        flex-direction: column;
+        .hero-info{
+            width: 100%;
+            gap: 15px;
+            order: 2;
+            align-items: center;
+            text-align: center;
+            h1{
+                font-size: 34px;
+            }
+            p{
+
+                font-size: 18px;
+            }
+            .btn-universal{
+                padding: 10px 25px;
+                font-size: 18px;
+                i{
+                    font-size: 18px;
+                }
+            }
+            .hero-info__st{
+                gap: 20px;
+                span{
+                    gap: 10px;
+                    h2{
+                        font-size: 22px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .hero-img{
+            order: 1;
+            width: 100%;
+        }
+    }
+}
