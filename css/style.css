@@ -2117,6 +2117,7 @@ header .nav22 p {
   }
   .footer .footer__items {
     flex-direction: row;
+    justify-content: space-between;
   }
   .footer .footer__items .footer__logo p {
     font-size: 22px;

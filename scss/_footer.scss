@@ -239,6 +239,7 @@
         padding: 50px 200px;
         .footer__items{
             flex-direction: row;
+            justify-content: space-between;
             .footer__logo{
                 p{
                     font-size: 22px;
