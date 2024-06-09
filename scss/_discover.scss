@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 50px 30px;
     gap: 30px;
     &__header{
         width: 100%;
@@ -25,6 +25,8 @@
                 background-color: transparent;
                 font-size: 18px;
                 border-radius: 20px;
+                display: flex;
+                gap: 15px;
                 i{
                     color: #A259FF;
                     font-size: 20px;
@@ -38,36 +40,141 @@
         gap: 30px;
     }
     &__item{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        background-color: #3B3B3B;
+        border-radius: 25px;
         &__img{
             img{
                 width: 100%;
+                height: 100%;
             }
         }
         &__info{
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 10px;
             padding: 20px;
             h2{
                 color: white;
+                font-family: monospace;
+                font-size: 32px;
             }
             &__name{
                 display: flex;
                 align-items: center;
-                gap: 30px;
+                gap: 20px;
                 p{
                     color: white;
+                    letter-spacing: 2px;
                 }
             }
             &__st{
                 display: flex;
                 justify-content: space-between;
+                margin-top: 30px;
                 &__price{
                     display: flex;
-                    gap: 15px;
-                    color: white;
+                    flex-direction: column;
+                    gap: 10px;
+                    h5{
+                        color: white;
+                        font-size: 22px;
+                        font-weight: 100;
+                    }
+                    p{
+                        color: #858584;
+                    }
                 }
             }
+        }
+    }
+}
+
+
+
+@media (max-width:550px){
+    .discover{
+        padding: 50px 70px;
+    }
+}
+@media (min-width:768px){
+    .discover{
+        padding: 50px 70px;
+        &__header{
+            flex-direction: row;
+            justify-content: space-between;
+            &__left{
+                align-items: start;
+            }
+        }
+        &__items{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+@media (min-width:992px){
+    .discover{
+        padding: 50px 70px;
+        &__header{
+            h1{
+                font-size: 48px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+        &__items{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+@media (min-width:1400px){
+    .discover{
+        padding: 50px 100px;
+        &__header{
+            h1{
+                font-size: 48px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+        &__items{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+@media (min-width:1500px){
+    .discover{
+        padding: 50px 150px;
+        &__header{
+            h1{
+                font-size: 48px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+        &__items{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+@media (min-width:1700px){
+    .discover{
+        padding: 50px 200px;
+        &__header{
+            h1{
+                font-size: 48px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+        &__items{
+            grid-template-columns: repeat(3, 1fr);
         }
     }
 }

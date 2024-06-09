@@ -155,6 +155,88 @@
 }
 @media (min-width: 1200px){
     .category{
+        padding: 50px 70px;
+        .category__header{
+            font-size: 36px;
+        }
+        .category__cards{
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 100px;
+            .category__card{
+                .category__card__img{
+                    span{
+                        i{
+                            font-size: 86px;
+                        }
+                    }
+                }
+                .category__card__text{
+                    padding: 20px 30px;
+                    p{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1400px){
+    .category{
+        padding: 50px 100px;
+        .category__header{
+            font-size: 36px;
+        }
+        .category__cards{
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 100px;
+            .category__card{
+                .category__card__img{
+                    span{
+                        i{
+                            font-size: 86px;
+                        }
+                    }
+                }
+                .category__card__text{
+                    padding: 20px 30px;
+                    p{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1500px){
+    .category{
+        padding: 50px 150px;
+        .category__header{
+            font-size: 36px;
+        }
+        .category__cards{
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 100px;
+            .category__card{
+                .category__card__img{
+                    span{
+                        i{
+                            font-size: 86px;
+                        }
+                    }
+                }
+                .category__card__text{
+                    padding: 20px 30px;
+                    p{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1700px){
+    .category{
+        padding: 50px 200px;
         .category__header{
             font-size: 36px;
         }
