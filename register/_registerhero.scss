@@ -73,7 +73,7 @@
 @media (min-width:992px){
     .register{
         flex-direction: row;
-        gap: 30px;
+        gap: 50px;
         .register__img{
             flex: 1;
             img{
@@ -85,9 +85,13 @@
             flex: 1;
             align-items: start;
             justify-content: center;
+            .register__text__title{
+                font-size: 48px;
+            }
             .register__text__info{
-                width: 100%;
+                width: 80%;
                 text-align: start;
+                font-size: 22px;
             }
             form{
                 padding: 0;
@@ -97,6 +101,78 @@
                 }
                 .reghero__btn{
                     width: 300px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px){
+    .register{
+        flex-direction: row;
+        gap: 70px;
+        .register__img{
+            flex: 1;
+            img{
+                height: 100%;
+            }
+        }
+        .register__text{
+            text-align: start;
+            flex: 1;
+            align-items: start;
+            justify-content: center;
+            .register__text__title{
+                font-size: 52px;
+            }
+            .register__text__info{
+                width: 80%;
+                text-align: start;
+                font-size: 24px;
+            }
+            form{
+                padding: 0;
+                gap: 20px;
+                span{
+                    width: 350px;
+                }
+                .reghero__btn{
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1400px){
+    .register{
+        flex-direction: row;
+        gap: 70px;
+        .register__img{
+            flex: 1;
+            img{
+                height: 100%;
+            }
+        }
+        .register__text{
+            text-align: start;
+            flex: 1;
+            align-items: start;
+            justify-content: center;
+            .register__text__title{
+                font-size: 52px;
+            }
+            .register__text__info{
+                width: 80%;
+                text-align: start;
+                font-size: 24px;
+            }
+            form{
+                padding: 0;
+                gap: 20px;
+                span{
+                    width: 400px;
+                }
+                .reghero__btn{
+                    width: 400px;
                 }
             }
         }

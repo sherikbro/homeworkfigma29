@@ -72,7 +72,7 @@
 @media (min-width: 992px) {
   .register {
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
   }
   .register .register__img {
     flex: 1;
@@ -86,9 +86,13 @@
     align-items: start;
     justify-content: center;
   }
+  .register .register__text .register__text__title {
+    font-size: 48px;
+  }
   .register .register__text .register__text__info {
-    width: 100%;
+    width: 80%;
     text-align: start;
+    font-size: 22px;
   }
   .register .register__text form {
     padding: 0;
@@ -99,5 +103,77 @@
   }
   .register .register__text form .reghero__btn {
     width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .register {
+    flex-direction: row;
+    gap: 70px;
+  }
+  .register .register__img {
+    flex: 1;
+  }
+  .register .register__img img {
+    height: 100%;
+  }
+  .register .register__text {
+    text-align: start;
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+  }
+  .register .register__text .register__text__title {
+    font-size: 52px;
+  }
+  .register .register__text .register__text__info {
+    width: 80%;
+    text-align: start;
+    font-size: 24px;
+  }
+  .register .register__text form {
+    padding: 0;
+    gap: 20px;
+  }
+  .register .register__text form span {
+    width: 350px;
+  }
+  .register .register__text form .reghero__btn {
+    width: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  .register {
+    flex-direction: row;
+    gap: 70px;
+  }
+  .register .register__img {
+    flex: 1;
+  }
+  .register .register__img img {
+    height: 100%;
+  }
+  .register .register__text {
+    text-align: start;
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+  }
+  .register .register__text .register__text__title {
+    font-size: 52px;
+  }
+  .register .register__text .register__text__info {
+    width: 80%;
+    text-align: start;
+    font-size: 24px;
+  }
+  .register .register__text form {
+    padding: 0;
+    gap: 20px;
+  }
+  .register .register__text form span {
+    width: 400px;
+  }
+  .register .register__text form .reghero__btn {
+    width: 400px;
   }
 }
