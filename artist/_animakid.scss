@@ -35,6 +35,30 @@
                 }
             }
         }
+        .animakid__top__right{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            button{
+                width: 100%;
+                border: none;
+                padding: 15px 0;
+                border-radius: 25px;
+                font-size: 18px;
+                color: white;
+                border: 1px solid #A259FF;
+                
+            }
+            .abtn1{
+                background-color: #A259FF;
+            }
+            .abtn2{
+                background-color: transparent;
+                i{
+                    color: #A259FF;
+                }
+            }
+        }
     }
     .animakid__middle{
         width: 100%;
@@ -50,12 +74,215 @@
         }
         .animakid__middle__icon{
             display: flex;
-            gap: 5px;
+            gap: 10px;
             i{
                 font-size: 24px;
                 color: #858584;
             }
         }
         
+    }
+}
+
+@media(min-width:768px){
+    .animakid{
+        width: 100%;
+        padding: 100px 70px 50px;
+        background-color: #3b3b3b;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .animakid__top{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .animakid__top__left{
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                h1{
+                    font-size: 28px;
+                    color: white;
+                }
+                .animakid__st{
+                    display: flex;
+                    gap: 25px;
+                    .animakid__st__item{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        h2{
+                            font-size: 25px;
+                            color: white;
+                        }
+                        p{
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .animakid__top__right{
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                button{
+                    width: 250px;
+                    border: none;
+                    padding: 25px 0;
+                    border-radius: 25px;
+                    font-size: 18px;
+                    color: white;
+                    border: 1px solid #A259FF;
+                    
+                }
+                .abtn1{
+                    background-color: #A259FF;
+                }
+                .abtn2{
+                    background-color: transparent;
+                    i{
+                        color: #A259FF;
+                    }
+                }
+            }
+        }
+        .animakid__middle{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h4{
+                font-size: 18px;
+                color: #858584;
+            }
+            p{
+                color: white;
+            }
+            .animakid__middle__icon{
+                display: flex;
+                gap: 10px;
+                i{
+                    font-size: 24px;
+                    color: #858584;
+                }
+            }
+            
+        }
+    }
+}
+@media(min-width:992px){
+    .animakid{
+        padding: 100px 70px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .animakid__top{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 30px;
+            .animakid__top__left{
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                h1{
+                    font-size: 48px;
+                }
+
+                .animakid__st{
+                    display: flex;
+                    gap: 25px;
+                    .animakid__st__item{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        h2{
+                            font-size: 35px;
+                            color: white;
+                        }
+                        p{
+                            color: white;
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+            .animakid__top__right{
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                button{
+                    width: 250px;
+                    border: none;
+                    padding: 25px 0;
+                    border-radius: 25px;
+                    font-size: 18px;
+                    color: white;
+                    border: 1px solid #A259FF;
+                    
+                }
+                .abtn1{
+                    background-color: #A259FF;
+                }
+                .abtn2{
+                    background-color: transparent;
+                    i{
+                        color: #A259FF;
+                    }
+                }
+            }
+        }
+        .animakid__middle{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h4{
+                font-size: 22px;
+                color: #858584;
+            }
+            p{
+                color: white;
+                font-size: 22px;
+            }
+            .animakid__middle__icon{
+                display: flex;
+                gap: 10px;
+                i{
+                    font-size: 24px;
+                    color: #858584;
+                }
+            }
+            
+        }
+    }
+}
+@media(min-width: 1400px){
+    .animakid{
+        padding: 100px 100px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+}
+@media(min-width: 1500px){
+    .animakid{
+        padding: 100px 150px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+}
+@media(min-width: 1600px){
+    .animakid{
+        padding: 100px 200px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
     }
 }
