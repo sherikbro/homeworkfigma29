@@ -1,0 +1,61 @@
+.animakid{
+    width: 100%;
+    padding: 100px 20px 50px;
+    background-color: #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .animakid__top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .animakid__top__left{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            h1{
+                font-size: 28px;
+                color: white;
+            }
+            .animakid__st{
+                display: flex;
+                gap: 25px;
+                .animakid__st__item{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h2{
+                        font-size: 25px;
+                        color: white;
+                    }
+                    p{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .animakid__middle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h4{
+            font-size: 18px;
+            color: #858584;
+        }
+        p{
+            color: white;
+        }
+        .animakid__middle__icon{
+            display: flex;
+            gap: 5px;
+            i{
+                font-size: 24px;
+                color: #858584;
+            }
+        }
+        
+    }
+}

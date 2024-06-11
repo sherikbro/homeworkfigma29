@@ -1,0 +1,47 @@
+.artisthero{
+    width: 100%;
+    &__img{
+        width: 100%;
+    }
+    position: relative;
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: center;
+    .artistheroicon{
+        position: absolute;
+        bottom: -62px;
+    }
+}
+
+.artist__discover{
+    padding-top: 100px;
+}
+
+@media(min-width:768px){
+    .artisthero{
+        .artistheroicon{
+            left: 70px;
+        }
+    }
+}
+@media(min-width: 1400px){
+    .artisthero{
+        .artistheroicon{
+            left: 100px;
+        }
+    }
+}
+@media(min-width: 1500px){
+    .artisthero{
+        .artistheroicon{
+            left: 150px;
+        }
+    }
+}
+@media(min-width: 1700px){
+    .artisthero{
+        .artistheroicon{
+            left: 200px;
+        }
+    }
+}
