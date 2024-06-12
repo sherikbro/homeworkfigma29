@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
 }
 .register .register__img {
   width: 100%;
@@ -43,7 +43,7 @@
   gap: 10px;
 }
 .register .register__text form span i {
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 .register .register__text form span input {
   width: 100%;
@@ -51,7 +51,7 @@
   border: none;
   background-color: transparent;
   font-size: 18px;
-  color: #2B2B2B;
+  color: #2b2b2b;
 }
 .register .register__text form .reghero__btn {
   padding: 0;
@@ -66,7 +66,7 @@
   font-size: 18px;
   border-radius: 30px;
   color: white;
-  background-color: #A259FF;
+  background-color: #a259ff;
 }
 
 @media (min-width: 992px) {

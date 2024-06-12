@@ -1233,7 +1233,7 @@ header .nav22 p {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 50px 30px;
+  padding: 50px 20px;
   gap: 30px;
 }
 .discover__header {
@@ -1284,7 +1284,7 @@ header .nav22 p {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px;
+  padding: 40px 20px;
 }
 .discover__item__info h2 {
   color: white;
