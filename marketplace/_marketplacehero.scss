@@ -33,6 +33,103 @@
     }
 }
 
+.market__section{
+    padding: 200px;
+    width: 100%;
+    padding: 0 200px;
+    background-color: #2b2b2b;
+    border: none;
+    outline: none;
+    ul{
+        width: 100%;
+        // background-color: red;
+        display: flex;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #3b3b3b;
+        li{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            a{
+                padding: 30px;
+                font-size: 24px;
+                width: 100%;
+                // background-color: #3b3b3b;
+                text-align: center;
+                color: #858584;
+                font-weight: 600;
+                border-bottom: 3px solid transparent;
+                transition: 0.5s;
+                span{
+                    transition: 0.5;
+                    background-color: #3b3b3b;
+                    margin-left: 20px;
+                    color: white;
+                    padding: 10px 20px;
+                    border-radius: 30px;
+                }
+                &:focus{
+                    border-bottom: 3px solid #858584;
+                    color: white;
+                    span{
+                        background-color: #858584;
+                    }
+                }
+                &:hover{
+                    // border-bottom: 3px solid #858584;
+                    // color: white;
+                    background-color: #3b3b3b;
+                }
+            }
+        }
+
+    }
+}
+@media (max-width:1400px){
+    .market__section{
+        padding: 0 150px;
+        ul{
+            li{
+                a{
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .market__section{
+        padding: 0 100px;
+        ul{
+            li{
+                a{
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .market__section{
+        padding: 0 20px;
+        ul{
+            li{
+                a{
+                    font-size: 18px;
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width:768px){
     .market__hero{
         padding: 50px 70px;
